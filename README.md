@@ -1,4 +1,4 @@
-#📏Medición de la Reversión a la Media
+# 📏Medición de la Reversión a la Media
 
 Desviación del Precio respecto a la SMA 200
 
