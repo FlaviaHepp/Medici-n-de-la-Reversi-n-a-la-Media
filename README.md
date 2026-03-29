@@ -102,3 +102,51 @@ Se recomienda indexar:
 
 👤Autora
 Flavia Hepp Proyecto de SQL aplicó un análisis de riesgo basado en eventos.
+***
+📊 **Cuando el precio se aleja demasiado… ¿vuelve?**
+
+En mercados financieros, uno de los conceptos más potentes (y debatidos) es la **reversión a la media**.
+
+👉 Analicé qué acciones están cotizando con una **desviación mayor al 10% respecto a su SMA 200**, identificando posibles extremos del mercado.
+
+💡 **Insight clave:**
+Cuando un activo se aleja significativamente de su promedio de largo plazo, aumenta la probabilidad de:
+
+* 🔻 Corrección (si está sobreextendido al alza)
+* 🔺 Rebote (si está castigado en exceso)
+
+---
+
+📈 **¿Qué medí?**
+
+* Precio actual vs. **media móvil de 200 días (SMA 200)**
+* Desvío porcentual
+* Clasificación automática:
+
+  * > +10% → posible sobrevaloración
+  * < -10% → posible infravaloración
+
+---
+
+🧠 **¿Cómo interpretarlo?**
+
+* Desvíos extremos → potencial de reversión
+* Pero también → pueden indicar tendencias fuertes en curso
+* Clave: combinar con otros indicadores (RSI, volumen, contexto macro)
+
+---
+
+⚡ **¿Por qué importa?**
+
+Porque permite detectar:
+
+* Zonas de entrada/salida más racionales
+* Activos “estirados” por emoción del mercado
+* Oportunidades de estrategias **mean reversion**
+
+---
+
+📌 Pregunta para la comunidad:
+¿Prefieren operar extremos contra la tendencia… o esperar confirmación antes de actuar?
+
+#Trading #QuantFinance #DataScience #StockMarket #MeanReversion #TechnicalAnalysis #SQL #Analytics
